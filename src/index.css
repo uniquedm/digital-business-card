@@ -1,10 +1,10 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Inter", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #23252C;
+  color: white
 }
 
 code {
@@ -14,4 +14,94 @@ code {
 
 .App {
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  width: 317px;
+  justify-content: center;
+  height: auto;
+}
+
+.photo--style {
+  width: 317px;
+  height: 317px;
+}
+
+.about {
+  background-color: #1A1B21;
+  box-sizing: content-box;
+  padding: 10%;
+}
+
+.about--name {
+  margin: 0;
+  font-weight: 700;
+  font-size: 25px;
+  text-align: center;
+}
+
+.about--title {
+  margin: 0;
+  font-weight: 400;
+  font-size: 12.8px;
+  text-align: center;
+  color: #F3BF99;
+  padding-top: 1%;
+}
+
+.about--website {
+  margin: 0;
+  font-weight: 100;
+  font-size: 10.24px;
+  text-align: center;
+  padding-top: 3%;
+  padding-bottom: 5%;
+}
+
+.about-buttons {
+  display: flex;
+  margin-right: 20%;
+}
+
+.about-buttons > button {
+  font-weight: 700;
+  font-size: 12px;
+  padding: 3% 20%;
+  border-radius: 6px;
+  text-align: center;
+  display: flex;
+}
+
+.about--header {
+  margin: 0;
+  font-weight: 700;
+  font-size: 16px;
+  text-align: left;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.about--content {
+  margin: 0;
+  font-weight: 100;
+  font-size: 10.24px;
+  word-wrap: normal;
+}
+
+.footer {
+  display: flex;
+  background-color: #161619;
+  flex: content;
+  justify-content: center;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+.footer > img {
+  margin: 1%;
+}
+
+.socialmedia--logo {
+  width: 25px;
+  height: 25px;
+  padding: 5%;
 }
